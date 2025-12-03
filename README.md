@@ -5,29 +5,33 @@ Project ini adalah implementasi dari serangkaian soal konversi huruf ke angka da
 Project ini menggunakan JavaScript dan bisa dijalankan via cli.
 ---
 
- # Kamus
- A : 0
- \nB, C, D : 1 
- \nE : 2 
- \nF, G, H: 3 
- \nI : 4 
- \nJ, K, L, M, N : 5 
- \nO : 6 
- \nP, Q, R, S, T : 7 
- \nU : 8 
- \nV, W, X, Y, Z : 9 
-\n
- \na : 9 
- \nb, c, d : 8 
- \ne : 7 
- \nf, g, h, : 6
- \ni : 5 
- \nj, k, l, m, n : 4 
- \no : 3 
- \np, q, r, s, t : 2 
- \nu : 1 
- \nv, w, x, y, z : 0 
- \n(spasi)  : 0 
+ ## Kamus
+| Huruf         | Nilai |
+|---------------|-------|
+| A             | 0     |
+| B, C, D       | 1     |
+| E             | 2     |
+| F, G, H       | 3     |
+| I             | 4     |
+| J, K, L, M, N | 5     |
+| O             | 6     |
+| P, Q, R, S, T | 7     |
+| U             | 8     |
+| V, W, X, Y, Z | 9     |
+
+| Huruf          | Nilai |
+|----------------|-------|
+| a              | 9     |
+| b, c, d        | 8     |
+| e              | 7     |
+| f, g, h        | 6     |
+| i              | 5     |
+| j, k, l, m, n  | 4     |
+| o              | 3     |
+| p, q, r, s, t  | 2     |
+| u              | 1     |
+| v, w, x, y, z  | 0     |
+| (spasi)        | 0     |
 
 1. **Konversi Huruf ke Angka**  
    - Huruf besar (A-Z), huruf kecil (a-z), dan spasi diubah ke angka sesuai kamus.
